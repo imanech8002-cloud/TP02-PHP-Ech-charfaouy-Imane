@@ -9,7 +9,7 @@ TP 02 PHP — Programmation Web 2 — 2026/2027
 - Année universitaire : 2026/2027
 
 ## Présentation
-Ce dépôt contient les solutions des exercices du TP 02 en PHP.
+Ce dépôt contient les solutions des exercices du TP 02.
 
 ## Liste des exercices
 - Exercice 1
