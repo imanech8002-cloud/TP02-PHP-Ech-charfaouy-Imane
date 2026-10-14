@@ -16,6 +16,5 @@
     plusieurs lignes*/
     ?>
     <?="une phrase avec la suntaxe courte de PHP"?>
-
 </body>
 </html>
