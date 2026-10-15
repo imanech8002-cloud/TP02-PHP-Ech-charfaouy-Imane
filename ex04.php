@@ -25,11 +25,9 @@ $vide=null;
 
 </pre>
 <?php
-
-$valeur_string=int($valeur_string);
-$valeur_float=int($valeur_float);
-$valeur_int=string($valeur_int);
-
+$valeur_string=(int)$valeur_string;
+$valeur_float=(int)$valeur_float;
+$valeur_int=(string)$valeur_int;
 ?>
 <pre>
     <?=var_dump($valeur_int)?>
@@ -37,14 +35,30 @@ $valeur_int=string($valeur_int);
     <?=var_dump($valeur_float)?>
 </pre>
 <?php
+echo "Avec echo: <br>"
+echo "true= ".$vrai."<br>";
+echo "false= ".$false."<br>";
 
-echo $vrai;
-echo $faux;
-
+echo "Avec var_damp: <br>"
 var_dump($vrai);
 var_dump($faux)
 
+$nombre_zero=(bool)0;
+$chaine_zero=(bool)"0";
+$chaine_php=(bool)"PHP";
+$tableau_vide=(bool)[];
+
 ?>
+<pre>
+    0:
+    <?=var_dump($nombre_zero)?>
+    "0":
+    <?=var_dump($chaine_zero)?>
+    "PHP":
+    <?=var_dump($chaine_php)?>
+    Tableau vide:
+    <?=var_dump($tableau_vide)?>
+</pre>
 
     </body>
 </html>
