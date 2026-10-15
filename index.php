@@ -21,8 +21,7 @@
         <li><a href="ex08.php">Exercice 8</a></li>
         <li><a href="ex09.php">Exercice 9</a></li>
         <li><a href="ex10_get.php">Exercice 10-get</a></li>
-        <li><a href="ex10_post.php">Exercice 10-post</a></li>
-        
+        <li><a href="ex10_post.php">Exercice 10-post</a></li> 
 
     </ul>
 </body>
