@@ -6,6 +6,7 @@
     </head>
 <body>
     <?php
+    // Test Git
     echo "Bienvenue dans mon TP PHP";
     $nom="Ech-charfaouy";
     $prenom="Imane";
