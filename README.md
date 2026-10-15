@@ -22,6 +22,20 @@ Ce dépôt contient les solutions des exercices du TP 02.
 - Exercice 8
 - Exercice 9
 - Exercice 10 
-Exercice2:
+
+#Exercice2:
 -$note et $Note sont 2 variables differents car dans php les variables sont sensibles a la casse.$note avec n minuscule differente de $Note avec n majuscule.
 -parmi $a,$_a,$a_a,$AAA,$a!,$1a,$a1 les quelles qui sont valides sont les tous sauf $1a car on peut pas ecrire une nombre au debut de la declaration d'une variable et $a! car contient un caractere speciale (!).
+
+#Exercice 4:
+La difference d'affichage de false entre echo et var_dump c'est que avec echo le resultat est 0 mais avec var_dump le resultat est la valeur avec le type.
+
+#Exercice 5:
+-1:Note invalide
+9:Non valide
+10:Passable
+12:Assez bien
+14bBien
+16:Tres bien
+21:Note invalide
+
