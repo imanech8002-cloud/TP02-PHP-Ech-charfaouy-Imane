@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meata charset="UTF-8">
+        <meta charset="UTF-8">
         <title>Exercice 7</title>
     </head>
     <body>
